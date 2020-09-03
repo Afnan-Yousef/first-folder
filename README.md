@@ -15,7 +15,7 @@ Brew cask install java
 ```
 Brew install maven
 ```
-:info: To check if maven installed correctly, write the following command `mvn -version` in terminal
+:Info: To check if maven installed correctly, write the following command `mvn -version` in terminal
 
 ### 4-	Install IDE (STS,Eclipse ..)
 It is highly recommended to use Spring Tool Suite (STS) instead of Eclipse. 

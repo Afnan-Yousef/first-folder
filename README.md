@@ -1,33 +1,33 @@
-# :warning: Pre-Requisites
+## :computer: Pre-Requisites
 
-### 1-	Install Homebrew:
+### :one:	Install Homebrew:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-### 2-	Install Java    
+### :two:	Install Java    
 ```
 Brew cask install java
 ```
-:info: To check if JAVA installed correctly, write the following command `java -version` in terminal
+:information_source: To check if JAVA installed correctly, write the following command `java -version` in terminal
 
 
-### 3- Install Apache-Maven
+### :three: Install Apache-Maven
 ```
 Brew install maven
 ```
-:Info: To check if maven installed correctly, write the following command `mvn -version` in terminal
+:information_source: To check if maven installed correctly, write the following command `mvn -version` in terminal
 
-### 4-	Install IDE (STS,Eclipse ..)
+### :four:	Install IDE (STS,Eclipse ..)
 It is highly recommended to use Spring Tool Suite (STS) instead of Eclipse. 
 Please refer to this link: https://spring.io/tools3/sts/legacy
 
-### 5-	Project
+### :five:	Project
 Clone/Download the project, then import it in your IDE   
 ```
 git clone https://github.com/KargoGlobal/QAAdvertisersWebAutomation.git
 ```
 
-### 6-	Attaching setting.xml file
+### :six:	Attaching setting.xml file
 
 Add this file in the following path **/Users/UserName/.m2/settings.xml**.
 This file will give you a permission to use a predefined methods.
@@ -99,7 +99,7 @@ Example:
 
 public AspireWebElement selectorName();}
 
-#### :info: Note:
+#### :information_source: Note:
 
 1) “selectorName” is case sensitive.
 2) User can use: ID, ClassName, Name, Link Text, and XPath locators for identifying web elements in a web page. 
@@ -113,7 +113,7 @@ i.e. `@IDSelector(“${pages.nameOfClass.selectorName}”)`
 `public AspireWebElement selectorName();}`
 
 
-#### :info: Note:
+#### :information_source: Note:
 In `.properties` page the locater should be compatible with the declaration in the interface
 i.e. if we use
 > @XPathSelector("${gallery}")
@@ -205,7 +205,7 @@ man clean test
 
 --------------------------------------------------------------------------------------------
 
-# Report:
+:page_with_curl: # Report:
 
 You can check results from:
 
